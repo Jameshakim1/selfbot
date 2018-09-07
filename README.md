@@ -10,44 +10,22 @@ Cara Install Bot Token Di Termux :
 ------
 - `pkg install nodejs -y`
 - `pkg install git -y`
-- `git clone https://github.com/arifistifik/token`
+- `git clone https://github.com/jamshakim1/selfbot`
 - `pkg install nano`
-- `cd token`
+- `cd selfbot`
 - `npm install`
 - `npm i`
 - `npm i -g npm (Jika Update)`
 - `npm start`
 
-Cara Install Bot Token Di C9/Server:
-------
-- =================  [PROSES UPDATE]  =================
-- ==============================================
-
-- `sudo apt-get update`
--`sudo apt-get install build-essential checkinstall libssl-dev`
-- `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash`
-- `nvm install v8.9.1`
-- `nvm use v8.9.1`
-- `nvm ls`
-- `nvm alias default node`
-- =================  [PROSES INSTALL]  =================
-- ==============================================
-- `sudo apt-get install nodejs`
-- `git clone https://github.com/arifistifik/token`
-- `ls`
-- `cd token`
-- `npm i`
-- `npm i -g npm [apabila ada update]`
-- `npm start`
-
 Cara Menjalankan Bot Kembali :
 ------
-- `cd token`
+- `cd selfbot`
 - `npm start`
 
 ada pertanyaan :
 ------
--add line id : arifistifik
+-add line id : jameshakim1
 
 Thx To :
 ------
