@@ -105,7 +105,7 @@ class LineAPI {
     this._client.getAuthQrcode(true, 'JAMS-PC',(err, result) => {
       const qrcodeUrl = `line://au/q/${result.verifier}`;
       qrcode.generate(qrcodeUrl,{small: true});
-      console.info(`\n\nlink qr code is: ${qrcodeUrl}`)
+      console.info(`\n\njams qr code: ${qrcodeUrl}`)
       Object.assign(this.config.Headers,{ 'X-Line-Access': result.verifier });
         unirest.get('https://gd2.line.naver.jp/Q')
           .headers(this.config.Headers)
